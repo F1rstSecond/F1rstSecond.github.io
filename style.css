@@ -1,42 +1,66 @@
 .footer {
-	text-align: center;
+    text-align: center;
 }
 
 .navbar-brand {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 .jumbotron {
-	margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .disabled {
-	cursor: not-allowed;
+    cursor: not-allowed;
 }
 
 .alert {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 320px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 320px;
+}
+
+.vk {
+    height: 240px;
+    width: 240px;
+    background-image: url(img/240px-VK.com-logo.svg.png);
+    display: block;
+}
+
+.gmail {
+    height: 240px;
+    width: 240px;
+    background-image: url(img/Gmail_Icon.png);
+    display: block;
+}
+
+.svyaz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
 }
 
 .carti {
-	height: 300px;
-	margin-top: 30px;
+    height: 300px;
+    margin-top: 30px;
 }
 
 .link {
-	color: #2980b9;
-	text-decoration: none;
+    color: #2980b9;
+    text-decoration: none;
 }
 
 .link:hover {
-	color: #1b557a;
-	text-decoration: none;
+    color: #1b557a;
+    text-decoration: none;
 }
