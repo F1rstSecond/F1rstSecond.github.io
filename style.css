@@ -1,0 +1,42 @@
+.footer {
+	text-align: center;
+}
+
+.navbar-brand {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.jumbotron {
+	margin-top: 2rem;
+}
+
+.disabled {
+	cursor: not-allowed;
+}
+
+.alert {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 320px;
+}
+
+.carti {
+	height: 300px;
+	margin-top: 30px;
+}
+
+.link {
+	color: #2980b9;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #1b557a;
+	text-decoration: none;
+}
